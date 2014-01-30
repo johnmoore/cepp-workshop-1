@@ -38,8 +38,6 @@ function hashGradeHTML($html) {
 	return md5($static);
 }
 
-function 
-
 logIntoLMS(LMS_USER, LMS_PASS, $req);
 $html = getGradeHTML("_12524_1", $req);
 $hash = hashGradeHTML($html);
